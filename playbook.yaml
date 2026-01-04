@@ -1,0 +1,5 @@
+---
+- name: Demo playbook
+  hosts: windows
+  tasks:
+    - win_ping:
